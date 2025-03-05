@@ -48,9 +48,14 @@ public class Libro {
         this.disponible = disponible;
     }
 
-    // Método para mostrar la información del libro
+    // Metodo para mostrar la información del libro
     @Override
     public String toString() {
-        return "Título: " + titulo + ", Autor: " + autor + ", ISBN: " + isbn + ", Disponible: " + (disponible ? "Sí" : "No");
+        return "-----------------------------\n" +
+                "Título: " + titulo + "\n" +
+                "Autor: " + autor + "\n" +
+                "ISBN: " + isbn + "\n" +
+                "Disponible: " + (disponible ? "Sí" : "No") + "\n" +
+                "-----------------------------";
     }
 }
